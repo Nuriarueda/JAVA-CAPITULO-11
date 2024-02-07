@@ -1,9 +1,8 @@
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import print.consolePrint;
 
-public class Ejercicio 1{
+public class Ejercicio1{
     public static void main(String[] args) {
         
         
@@ -14,7 +13,6 @@ public class Ejercicio 1{
 
             BufferedWriter bw = new BufferedWriter(new FileWriter("primos.dat"));
             String text = nPrimo + ", \n";
-            consolePrint.print(text,bw);
             
             do{    
                 nPrimo = siguientePrimo(nPrimo);
