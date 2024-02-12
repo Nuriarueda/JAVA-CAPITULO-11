@@ -8,16 +8,17 @@ import java.io.IOException;
 public class Ejercicio2 {
     public static void main(String[] args) {
         
-        String line = "";
         
         try{
             BufferedReader br = new BufferedReader(new FileReader("primos.dat"));
+            String linea = "";
             
-            do{
-                line = br.readLine();
-                System.out.println(line != null ? line : "");
-            }while(line != null);
+            while (linea!=null){
+                System.out.println(" ");
+                linea = br.readLine();
+            }
 
+            System.out.println();
             br.close();
 
         }catch(IOException io){
