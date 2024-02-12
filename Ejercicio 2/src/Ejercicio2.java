@@ -1,3 +1,6 @@
+/* Realiza un programa que lea el fichero creado en el ejercicio anterior y que
+muestre los números por pantalla. */
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
